@@ -1,10 +1,16 @@
-.jumbatron {
+a {
+
+
+}
+
+h1 {
   color: blue;
   font-family: "Slabo 100px", serif;
 }
 
 .jumbatron p {
   color: green;
+  font-family: "Slabo 100px", serif;
 }
 
 .nav {
