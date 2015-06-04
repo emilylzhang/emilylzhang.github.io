@@ -1,0 +1,8 @@
+.jumbatron h1 {
+  font-color: blue;
+  font-family: 'Slabo', 100px, serif;   
+}
+
+.jumbatron p {
+    font-color: green;
+}
