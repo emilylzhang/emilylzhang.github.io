@@ -14,7 +14,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: "Lora";
-  background-image: url(http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png);
+  background: black;
 }
 
 h1 {
@@ -109,7 +109,7 @@ img:last-of-type {
 }
 
 #slide2 {
-  background-image: url("http://media.crowdshare.io/TcVNl9A2UAski4koUzoOtCLBZOw9MAeB-1200x1200.png");
+  background-image: url(http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png);
   background-attachment: fixed;
 }
 
@@ -120,7 +120,7 @@ img:last-of-type {
 }
 
 #slide4 {
-  background: #222;
+  background: black;
 }
 
 /*
