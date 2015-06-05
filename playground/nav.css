@@ -1,0 +1,32 @@
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 75px;
+  background-color: white;
+  background-color: rgba(256, 256, 256, 0.5);
+  font-family: "Dosis", Arial;
+  border: 1px solid mediumturquoise;
+  -webkit-box-shadow: 0 0 8px 0 #000000;
+  -moz-box-shadow: 0 0 8px 0 #000000;
+  box-shadow: 0 0 8px 0 #000000;
+}
+
+.fixed-nav-bar .nav-links {
+  padding: .5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.fixed-nav-bar li a:hover {
+  color: black;
+}
+
+.fixed-nav-bar li {
+  display: inline-block;
+  font-size: 150%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
