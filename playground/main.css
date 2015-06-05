@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:500);
+@import url(http://fonts.googleapis.com/css?family=Dosis:500);
 
 html {
   height: 100%;
@@ -13,16 +13,16 @@ body {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: "Raleway", Arial;
+  font-family: "Dosis", Arial;
   background: black;
 }
 
-/*
+
 
 h1 {
   font-size: 250%;
   color: mediumturquoise;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Dosis", Arial, sans-serif;
 }
 
 p {
@@ -38,18 +38,27 @@ p {
   z-index: 9999;
   width: 100%;
   height: 75px;
-  background-color: black;
+  background-color: white;
+  font-family: "Dosis", Arial;
+  border: 1px solid mediumturquoise;
+}
+
+.fixed-nav-bar .nav-links {
+  padding: 1%;
+  position: relative;
+  margin-left:auto;
+  margin-right:auto;
+
 }
 
 .fixed-nav-bar li {
-  display: inline;
+  display: inline-block;
+  font-size: 150%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.fixed-nav-bar li a{
-  font-size: 15px;
-  font-family: "Raleway", Arial;
-}
-
+/*
 .slide {
   position: relative;
   padding: 25vh 10%;
@@ -61,7 +70,7 @@ p {
   box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
   transform-style: inherit;
   z0index: 5;
-}
+}*/
 
 img {
   position: absolute;
@@ -76,11 +85,11 @@ img {
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
 }
 
-/*
+
 img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
-}*/
-/*
+}
+
 .slide:before {
   content: "";
   position: absolute;
@@ -96,7 +105,7 @@ img:last-of-type {
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Dosis", Arial, sans-serif;
 }
 
 .slide:nth-child(2n) .title {
@@ -123,7 +132,7 @@ img:last-of-type {
 #title {
   width: 100%;
   padding: 5%;
-  font-family: "Raleway", Arial, sans-serif;
+  font-family: "Dosis", Arial, sans-serif;
   background-image: url("http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png");
   background-attachment: fixed;  
   z-index:99999;
@@ -148,4 +157,4 @@ img:last-of-type {
 
 #slide4 {
   background: black;
-}*/
+}
