@@ -39,11 +39,11 @@ p {
   background-color: black;
 }
 
-.fixed-nav-bar>li {
+.fixed-nav-bar li {
   display: inline;
 }
 
-.fixed-nav-bar>li>a{
+.fixed-nav-bar li a{
   font-size: 15px;
   font-family: "Lora";
 }
@@ -119,18 +119,18 @@ img:last-of-type {
 }
 
 #title {
-  background-image: url("http://media.crowdshare.io/IlRX5BiQEeaDN0AG1Zm0Mi09MnUYv2za-1200x1200.jpg");
+  background-image: url("http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png");
    background-attachment: fixed;  
 }
 
 #slide1:before {
-  background-image: url("http://media.crowdshare.io/nLmPdRaCxt3iCZdciT50tinzPM9FlrIf-1200x1200.jpg");
+  background-image: url("http://media.crowdshare.io/IlRX5BiQEeaDN0AG1Zm0Mi09MnUYv2za-1200x1200.jpg");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
 }
 
 #slide2 {
-  background-image: url(http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png);
+  background-image: url("http://media.crowdshare.io/IlRX5BiQEeaDN0AG1Zm0Mi09MnUYv2za-1200x1200.jpg");
   background-attachment: fixed;
 }
 
@@ -149,7 +149,3 @@ img:last-of-type {
   color: green;
   font-family: "Lora", 100px, sans-serif;
 }*/
-
-.nav {
-  display: inline;
-}
