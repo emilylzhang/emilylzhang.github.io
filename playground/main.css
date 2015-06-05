@@ -17,6 +17,8 @@ body {
   background: black;
 }
 
+/*
+
 h1 {
   font-size: 250%;
   color: mediumturquoise;
@@ -78,7 +80,7 @@ img {
 img:last-of-type {
   transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }*/
-
+/*
 .slide:before {
   content: "";
   position: absolute;
@@ -146,4 +148,4 @@ img:last-of-type {
 
 #slide4 {
   background: black;
-}
+}*/
