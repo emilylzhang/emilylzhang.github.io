@@ -43,8 +43,12 @@ p {
   display: inline;
 }
 
+.fixed-nav-bar>li>a{
+  font-size: 15px;
+  font-family: "Lora";
+}
+
 .fixed-nav-bar>li>p{
-  display: inline;
   font-size: 15px;
   font-family: "Lora";
 }
