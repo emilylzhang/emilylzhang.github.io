@@ -119,8 +119,12 @@ img:last-of-type {
 }
 
 #title {
+  width: 100%;
+  padding: 5%;
+  font-family: "Lora", 100px, sans-serif;
   background-image: url("http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png");
-   background-attachment: fixed;  
+  background-attachment: fixed;  
+  z-index:99999;
 }
 
 #slide1:before {
