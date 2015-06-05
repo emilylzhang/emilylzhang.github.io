@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lora);
+@import url(http://fonts.googleapis.com/css?family=Raleway:500);
 
 html {
   height: 100%;
@@ -13,14 +13,14 @@ body {
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
-  font-family: "Lora";
+  font-family: "Raleway", Arial;
   background: black;
 }
 
 h1 {
   font-size: 250%;
   color: mediumturquoise;
-  font-family: "Lora", 100px, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
 }
 
 p {
@@ -45,7 +45,7 @@ p {
 
 .fixed-nav-bar li a{
   font-size: 15px;
-  font-family: "Lora";
+  font-family: "Raleway", Arial;
 }
 
 .slide {
@@ -94,7 +94,7 @@ img:last-of-type {
   border-radius: 5px;
   background: rgba(240,230,220, .7);
   box-shadow: 0 0 8px rgba(0, 0, 0, .7);
-  font-family: "Lora", 100px, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
 }
 
 .slide:nth-child(2n) .title {
@@ -121,7 +121,7 @@ img:last-of-type {
 #title {
   width: 100%;
   padding: 5%;
-  font-family: "Lora", 100px, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   background-image: url("http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png");
   background-attachment: fixed;  
   z-index:99999;
