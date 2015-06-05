@@ -118,7 +118,7 @@ img:last-of-type {
   text-shadow: 0 2px 2px #000;
 }
 
-#slide1 {
+#title {
   background-image: url("http://orig08.deviantart.net/0855/f/2015/154/e/3/into_the_darkness_by_starfishyx-d8vxx9g.png");
    background-attachment: fixed;  
 }
@@ -143,9 +143,3 @@ img:last-of-type {
 #slide4 {
   background: black;
 }
-
-/*
-.jumbatron p {
-  color: green;
-  font-family: "Lora", 100px, sans-serif;
-}*/
