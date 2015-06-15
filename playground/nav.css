@@ -3,12 +3,13 @@
 .fixed-nav-bar {
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 9999;
   width: 100%;
   height: 75px;
   background-color: white;
   background-color: rgba(256, 256, 256, 0.5);
-  font-family: "Dosis", Arial;
+  font-family: "Dosis", Consolas, Arial, sans-serif;
   border: 1px solid mediumturquoise;
   -webkit-box-shadow: 0 0 8px 0 #000000;
   -moz-box-shadow: 0 0 8px 0 #000000;
@@ -31,4 +32,18 @@
   font-size: 150%;
   padding-right: 5%;
   padding-left: 5%;
+}
+
+.test {
+  top: 500px;
+  height: 100%;
+  position: relative;
+  border: red solid 1px;
+
+}
+
+.test p {
+  padding-left: 50%;
+  padding-right: 50%;
+  border: red dashed 1px;
 }
