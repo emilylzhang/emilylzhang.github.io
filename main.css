@@ -1,0 +1,26 @@
+/* Custom css by Emily Zhang modifying the bootstrap theme */
+
+body {
+	font-family: "Raleway", Consolas;
+}
+
+.sidebar-nav li a {
+	color: mediumturquoise;
+}
+
+.sidebar-nav li a:hover {
+	color: black;
+	background: darkturquoise;
+}
+
+#profile {
+	opacity: 0.8;
+	border: dashed 1px black;
+}
+
+#profile:hover {
+	opacity: 1;
+	transition: opacity .30s ease-in-out;
+	-moz-transition: opacity .30s ease-in-out;
+	-webkit-transition: opacity .30s ease-in-out;
+}
