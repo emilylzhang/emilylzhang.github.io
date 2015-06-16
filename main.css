@@ -7,6 +7,8 @@
 
 body {
 	font-family: "Raleway", Consolas;
+	background-image: url("http://media.crowdshare.io/UHFIZM5d9HET2QRQvDcSHFEhCVYEhd0x-1200x1200.png");
+	background-size: cover;
 }
 
 .sidebar-nav li a {
@@ -16,6 +18,22 @@ body {
 .sidebar-nav li a:hover {
 	color: black;
 	background: darkturquoise;
+}
+
+.sidebar-nav li a[rel="active"] {
+	color: black;
+	background-color: white;
+}
+
+.sidebar-nav > .sidebar-brand a {
+	font-size: 25px;
+	background-color: white;
+    color: darkturquoise;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: black;
+    background-color: mediumturquoise;
 }
 
 #profile {
@@ -41,16 +59,19 @@ body {
 }
 
 #menu-toggle {
+	font-size: 10px;
 	border: none;
-	background-color: none;
-}
-
-#menu-toggle:hover {
 	background-color: white;
-	opacity: 0.6;
 	border: dashed 1px black;
 }
 
-#menu-toggle:after {
+.btn btn-default:hover {
+	background-color: white;
+	opacity: 0.7;
+	border: dashed 1px black;
+}
+
+.btn btn-default {
 	background-color: none;
+
 }
