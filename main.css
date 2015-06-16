@@ -1,5 +1,10 @@
 /* Custom css by Emily Zhang modifying the bootstrap theme */
 
+@font-face {
+    font-family: "Raleway"
+    src: url(http://fonts.googleapis.com/css?family=Raleway);
+}
+
 body {
 	font-family: "Raleway", Consolas;
 }
@@ -15,12 +20,37 @@ body {
 
 #profile {
 	opacity: 0.8;
-	border: dashed 1px black;
+	-ilter: saturate(0.0);
+    -webkit-filter: saturate(0.0);
+    -moz-filter: saturate(0.0);
+    -o-filter: saturate(0.0);
+    -ms-filter: saturate(0.0);
+	border: solid 2px black;
 }
 
 #profile:hover {
 	opacity: 1;
+	-ilter: saturate(0.7);
+    -webkit-filter: saturate(0.7);
+    -moz-filter: saturate(0.7);
+    -o-filter: saturate(0.7);
+    -ms-filter: saturate(0.7);
 	transition: opacity .30s ease-in-out;
 	-moz-transition: opacity .30s ease-in-out;
 	-webkit-transition: opacity .30s ease-in-out;
+}
+
+#menu-toggle {
+	border: none;
+	background-color: none;
+}
+
+#menu-toggle:hover {
+	background-color: white;
+	opacity: 0.6;
+	border: dashed 1px black;
+}
+
+#menu-toggle:after {
+	background-color: none;
 }
