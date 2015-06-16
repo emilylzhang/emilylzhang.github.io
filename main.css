@@ -9,6 +9,10 @@ body {
 	font-family: "Raleway", Consolas;
 }
 
+h1 {
+	color: black;
+}
+
 .sidebar-nav li a {
 	color: mediumturquoise;
 }
@@ -25,7 +29,7 @@ body {
 
 .sidebar-nav > .sidebar-brand a {
 	font-size: 25px;
-	background-color: white;
+	background-color: black;
     color: darkturquoise;
 }
 
@@ -34,7 +38,7 @@ body {
     background-color: mediumturquoise;
 }
 
-#profile {
+.profile {
 	opacity: 0.8;
 	-ilter: saturate(0.0);
     -webkit-filter: saturate(0.0);
@@ -44,7 +48,7 @@ body {
 	border: solid 2px black;
 }
 
-#profile:hover {
+.profile:hover {
 	opacity: 1;
 	-ilter: saturate(0.7);
     -webkit-filter: saturate(0.7);
@@ -54,6 +58,14 @@ body {
 	transition: opacity .30s ease-in-out;
 	-moz-transition: opacity .30s ease-in-out;
 	-webkit-transition: opacity .30s ease-in-out;
+}
+
+.profile[rel="profile1"] {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
 }
 
 #menu-toggle {
