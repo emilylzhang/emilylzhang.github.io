@@ -39,7 +39,22 @@
   height: 100%;
   position: relative;
   border: red solid 1px;
+  opacity: 0.3;
+  -webkit-transition: all .33s ease-in-out;
+  -moz-transition: all .33s ease-in-out;
+  -ms-transition: all .33s ease-in-out;
+  -o-transition: all .33s ease-in-out;
+  transition: all .33s ease-in-out;
 
+}
+
+.test:hover {
+  opacity: 1;
+  -webkit-transition: all .33s ease-in-out;
+  -moz-transition: all .33s ease-in-out;
+  -ms-transition: all .33s ease-in-out;
+  -o-transition: all .33s ease-in-out;
+  transition: all .33s ease-in-out;
 }
 
 .test p {
