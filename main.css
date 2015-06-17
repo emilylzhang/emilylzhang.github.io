@@ -1,12 +1,8 @@
 /* Custom css by Emily Zhang modifying the bootstrap theme */
-
-@font-face {
-    font-family: "Raleway"
-    src: url("http://fonts.googleapis.com/css?family=Raleway");
-}
+@import url(https://fonts.googleapis.com/css?family=Questrial);
 
 body {
-	font-family: "Raleway", Consolas;
+	font-family: "Questrial", sans-serif;
 }
 
 h1 {
@@ -15,6 +11,7 @@ h1 {
 
 .sidebar-nav li a {
 	color: mediumturquoise;
+	font-size: 20px;
 	-webkit-transition: all .33s ease-in-out;
 	-moz-transition: all .33s ease-in-out;
 	-ms-transition: all .33s ease-in-out;
@@ -33,7 +30,7 @@ h1 {
 }
 
 .sidebar-nav > .sidebar-brand a {
-	font-size: 25px;
+	font-size: 30px;
 	background-color: black;
     color: white;
     -webkit-transition: all .33s ease-in-out;
@@ -65,7 +62,7 @@ h1 {
     -moz-filter: saturate(0.0);
     -o-filter: saturate(0.0);
     -ms-filter: saturate(0.0);
-	border: solid 2px black;
+	border-radius: 2em;
 	-webkit-transition: all 2.5s ease;
 	-moz-transition: all 2.5s ease;
 	-ms-transition: all 2.5s ease;
@@ -91,6 +88,13 @@ h1 {
     -webkit-transform: scaleX(-1);
     -ms-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+#imgbox {
+	background: mediumturquoise;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 2em;
 }
 
 #menu-toggle {
