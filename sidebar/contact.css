@@ -14,6 +14,8 @@ body {
 #imgbox {
 	background: turquoise;
 	overflow: hidden;
-	width: 635px;
-	height: 650px;
+	display: inline-block;
+	/*max-height: 650px;
+	max-width: 635px;*/
+	text-align: center;
 }

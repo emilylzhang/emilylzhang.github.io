@@ -53,7 +53,7 @@
                     <a href="#">portfolio</a>
                 </li>
                 <li>
-                    <a href="../oldindex.html">playground</a>
+                    <a href="../oldindex.html" id="confirmClickActionElementId">playground</a>
                 </li>
                 <li>
                     <a href="#">resume</a>
@@ -70,22 +70,24 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-12">
-                        <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">toggle menu</a><p></p>
-                        <h1>about</h1>
-                        <div class="clearcontent">
-                            <p><div id="imgbox"><img text-align=center class="profile" src="http://media.crowdshare.io/CtJbtzRMLwBApiUQIp6hqNC8rWtVZZpl-1200x1200.png"></div></p>
-                            <p><b>hello there!</b>
+                        <div class="text-center">
+                            <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">toggle menu</a><p></p>
+                            <h1>about</h1>
+                            <div class="clearcontent">
+                                <p><div id="imgbox"><img text-align=center class="profile" src="http://media.crowdshare.io/CtJbtzRMLwBApiUQIp6hqNC8rWtVZZpl-1200x1200.png"></div><div class="textblock"></p>
+                                <p><b><h2>hello there!</h2></b>
 
-                            </p>i am a student at UC Berkeley and an intended cs major.</p>
+                                </p>i am a student at UC Berkeley and an intended cs major.</p>
 
-                            <p>this personal website is still a work in progress and was created with the assistance of a Bootstrap template. this website is also my personal playground for exploring various cs concepts so please do not click on the playground link unless you are prepared to view possibly broken things. i am currently looking for an internship in front-end or back-end development. 
+                                <p>this personal website is still a work in progress and was created with the assistance of a Bootstrap template. this website is also my personal playground for exploring various cs concepts so please do not click on the playground link unless you are prepared to view possibly broken things. i am currently looking for an internship in front-end or back-end development. 
 
-                            <p>some of my other hobbies include creative writing, digital painting (I use Wacom's Bamboo Create tablet!), hip-hop dance (AFX and Kelix), and people watching.
+                                <p>some of my other hobbies include creative writing, digital painting (I use Wacom's Bamboo Create tablet!), hip-hop dance (AFX and Kelix), and people watching.
 
-                            <p>thanks for visiting and i hope you have a nice day!
+                                <p>thanks for visiting and i hope you have a nice day!
 
-                            <p>cheers to learning and growing,
-                            <br>emily zhang</p>
+                                <p>cheers to learning and growing,
+                                <br>emily zhang</p></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -109,6 +111,9 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+
+    <!-- Confirm go to playground -->
+    <script src = "../sidebar/confirm.js"></script>
 
 </body>
 

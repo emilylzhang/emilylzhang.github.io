@@ -4,6 +4,11 @@ body {
 	background-size: cover;
 }
 
+h2 {
+	font: 30px;
+	color: darkturquoise;
+}
+
 .clearcontent {
 	background: black;
 	color: white;
@@ -12,8 +17,15 @@ body {
 }
 
 #imgbox {
-	background: turquoise;
+	background: white;
+	display: inline-block;
 	overflow: hidden;
-	width: 701px;
-	height: 700px;
+	/*max-width: 701px;
+	max-height: 700px;*/
+}
+
+.textblock {
+	max-width: 520px;
+	margin-left: auto;
+	margin-right: auto;
 }
