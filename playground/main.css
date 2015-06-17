@@ -18,7 +18,7 @@ body {
   overflow-y: scroll;
   overflow-x: hidden;
   font-family: "Dosis", Arial;
-  background: aliceblue;
+  background: darkturquoise;
 }
 
 h1 {
@@ -106,21 +106,27 @@ p {
 }
 
 #slide1:before {
-  background-image: url("http://orig03.deviantart.net/6c62/f/2015/096/8/d/coming_home_by_starfishyx-d8opf7q.jpg");
+  background-image: url("..playground/1.png");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
+  border: 100px aqua dotted;
+  position: fixed;
+  min-height: 700px;
 }
 
 #slide2 {
-  /*background-image: url("http://media.crowdshare.io/IlRX5BiQEeaDN0AG1Zm0Mi09MnUYv2za-1200x1200.jpg");*/
-  background-image: url("http://media.crowdshare.io/cfZuzXlpGbtBgTYOsyia5uztY4THsAnb-1200x1200.jpg");
-  background-attachment: fixed;
+  background-image: url("../playground/wow.png");
+  border: 10px dashed white;
+  transform: translateZ(-1px) scale(2);
+  background: fixed;
+  opacity: 0.6;
 }
 
 #slide3:before {
-  background-image: url("http://media.crowdshare.io/cfZuzXlpGbtBgTYOsyia5uztY4THsAnb-1200x1200.jpg");
+  background-image: url("../playground/wow.png");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
+  position: fixed;
 }
 
 #slide4 {

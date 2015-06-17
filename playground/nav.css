@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Dosis:500);
 
 .fixed-nav-bar {
-  position: fixed;
+  position: static;
   top: 0;
   left: 0;
   z-index: 9999;
@@ -46,4 +46,26 @@
   padding-left: 50%;
   padding-right: 50%;
   border: red dashed 1px;
+}
+
+#oh {
+  font: 100px bold;
+  position: relative;
+  opacity: .2;
+  background-color: cyan;
+  -webkit-transition: all .33s ease-in-out;
+  -moz-transition: all .33s ease-in-out;
+  -ms-transition: all .33s ease-in-out;
+  -o-transition: all .33s ease-in-out;
+  transition: all .33s ease-in-out;
+}
+
+#oh:hover {
+  opacity: 1;
+  background-imgae: url(../playground/wow.jpg);
+  -webkit-transition: all .33s ease-in-out;
+  -moz-transition: all .33s ease-in-out;
+  -ms-transition: all .33s ease-in-out;
+  -o-transition: all .33s ease-in-out;
+  transition: all .33s ease-in-out;
 }

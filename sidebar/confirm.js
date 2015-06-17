@@ -12,12 +12,12 @@ document
             confirm('you are one persistent person wow');
             confirm('ok you should be prepared');
             confirm('!');
-            confirm('u!');
-            confirm('u');
-            confirm('uuuuu!');
-            confirm('u!');
-            confirm('u');
-            confirm('u');
+            confirm('!');
+            confirm('!!!!!');
+            confirm('!!!!!!!!!');
+            confirm('!!');
+            confirm('!');
+            confirm('!');
             confirm('wow you\'re still here');
             confirm('guess i\'ve got no choice');
             confirm('ok, lets do this!');
