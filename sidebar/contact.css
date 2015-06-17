@@ -8,6 +8,7 @@ body {
 	background: black;
 	color: white;
 	opacity: 0.97;
+	overflow: hidden;
 	padding: 100px;
 }
 
