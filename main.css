@@ -15,42 +15,42 @@ h1 {
 .sidebar-nav li a {
 	color: mediumturquoise;
 	font-size: 20px;
-	-webkit-transition: all .33s ease-in-out;
-	-moz-transition: all .33s ease-in-out;
-	-ms-transition: all .33s ease-in-out;
-	-o-transition: all .33s ease-in-out;
-	transition: all .33s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 .sidebar-nav li a:hover {
 	color: black;
 	background: #70e1e1;
-	-webkit-transition: all .33s ease-in-out;
-	-moz-transition: all .33s ease-in-out;
-	-ms-transition: all .33s ease-in-out;
-	-o-transition: all .33s ease-in-out;
-	transition: all .33s ease-in-out;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 .sidebar-nav > .sidebar-brand a {
 	font-size: 30px;
 	background-color: black;
     color: white;
-    -webkit-transition: all .33s ease-in-out;
-	-moz-transition: all .33s ease-in-out;
-	-ms-transition: all .33s ease-in-out;
-	-o-transition: all .33s ease-in-out;
-	transition: all .33s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
     color: black;
     background-color: white;
-    -webkit-transition: all .33s ease-in-out;
-	-moz-transition: all .33s ease-in-out;
-	-ms-transition: all .33s ease-in-out;
-	-o-transition: all .33s ease-in-out;
-	transition: all .33s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
 }
 
 .sidebar-nav li a[rel="active"] {

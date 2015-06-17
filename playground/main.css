@@ -116,7 +116,7 @@ p {
 }
 
 #slide2 {
-  background-image: url("../playground/wow.png");
+  background-image: url("../playground/111.png");
   border: 10px dashed white;
   transform: translateZ(-1px) scale(2);
   background: fixed;
@@ -124,7 +124,7 @@ p {
 }
 
 #slide3:before {
-  background-image: url("../playground/wow.png");
+  background-image: url("../playground/111.png");
   transform: translateZ(-1px) scale(2);
   z-index:-1;
   position: fixed;
