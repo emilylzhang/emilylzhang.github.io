@@ -9,6 +9,9 @@ h1 {
 	color: black;
 }
 
+#sidebar-wrapper {
+}
+
 .sidebar-nav li a {
 	color: mediumturquoise;
 	font-size: 20px;
