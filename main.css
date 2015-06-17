@@ -39,7 +39,7 @@ h1 {
 }
 
 .profile {
-	opacity: 0.8;
+	opacity: 0.55;
 	-ilter: saturate(0.0);
     -webkit-filter: saturate(0.0);
     -moz-filter: saturate(0.0);
