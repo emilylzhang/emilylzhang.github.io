@@ -20,6 +20,6 @@ document
             confirm('!');
             confirm('wow you\'re still here');
             confirm('guess i\'ve got no choice');
-            confirm('ok, lets do this!');
+            confirm('ok, let\'s do this!');
         }
     });
