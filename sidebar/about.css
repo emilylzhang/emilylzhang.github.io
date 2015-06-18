@@ -21,6 +21,7 @@ h2 {
 	background: mediumturquoise;
 	display: inline-block;
 	overflow: hidden;
+	max-width: 100%;
 	/*max-width: 701px;
 	max-height: 700px;*/
 }
