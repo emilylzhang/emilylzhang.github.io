@@ -1,7 +1,16 @@
 .header-tab {
 	color: #1abc9c;
+	background: white;
 }
 
-.header {
-	background: #1abc9c;
+.header-left {
+	background: white;
+}
+
+.hero-header {
+	background: white;
+}
+
+.hero.is-primary .subtitle {
+	color: #6C7A89;
 }
