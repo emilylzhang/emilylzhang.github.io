@@ -18,3 +18,24 @@
 .hero-content {
 	background: #4ECDC4;
 }
+
+.header-toggle {
+	background: white;
+}
+
+.hero.is-primary .header-toggle span {
+    background: #4ECDC4;
+}
+
+.hero.is-primary .header-toggle:hover {
+	background: white;
+}
+
+.hero.is-primary .header-toggle.is-active span {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.hero.is-primary .header-icon, .hero.is-primary .header-item > a:not(.button) {
+	color: #1abc9c;
+	background: white;
+}
