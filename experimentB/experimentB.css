@@ -45,5 +45,5 @@ a:hover {
 }
 
 .hero.is-medium .hero-content {
-	background: linear-gradient(white, #4ECDC4, #1abc9c);
+	background: linear-gradient(to top, #f5f7fa, #ECF0F1, #A2DED0, #1BA39C, #6C7A89);
 }
