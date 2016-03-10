@@ -1,3 +1,6 @@
 .header-item {
-	background: #1abc9c;
+	font-color: #1abc9c;
 }
+
+@import bulma/config/variables
+$blue: #72d0eb // Update blue
