@@ -44,7 +44,13 @@ a:hover {
 	background: white;
 }
 
-.hero.is-medium .hero-content {
-	background: linear-gradient(to top, #6C7A89, #4ECDC4 ,#4ECDC4, #6C7A89);
-	/*background: linear-gradient(to top, #f5f7fa, #ECF0F1, #A2DED0, #4ECDC4, #1BA39C, #6C7A89);*/
+.hero.is-small .hero-content {
+	background: linear-gradient(to top, #4ECDC4, white, white, white, white, white, white, white, white, white);
+	/*background: linear-gradient(to top, #6C7A89, #4ECDC4, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white ,white
+		);
+	background: linear-gradient(to top, #f5f7fa, #ECF0F1, #A2DED0, #4ECDC4, #1BA39C, #6C7A89);*/
+}
+
+#special {
+	opacity: 0.6;
 }
