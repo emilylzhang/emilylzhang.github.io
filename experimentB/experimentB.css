@@ -43,3 +43,7 @@ a:hover {
 	color: #1abc9c;
 	background: white;
 }
+
+.hero.is-medium .hero-content {
+	background: linear-gradient(white, #4ECDC4);
+}
