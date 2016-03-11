@@ -135,15 +135,22 @@
     <a id="s1"><div class="section"></a>
     	<div class="container">
     		<h1 class="title">about me</h1>
-    		<div class="columns">
+    		<div class="columns is-mobile">
     		<!-- Picture -->
-	    		<div class="column is-half">
-	    			<div class="media">
-						<img class="flip" src="playground/tgirl2.png">
+	    		<div class="column">
+	    			<div class="column is-half is-hidden-mobile"></div>
+	    			<div class="column is-half is-hidden-mobile"></div>
+	    			<div class="column is-half"></div>
+	    			<div class="columns is-mobile">
+		    			<div class="media">
+							<img class="box is-hidden-mobile" id="gray" src="playground/hello.jpeg">
+							<img class="box is-hidden-tablet" id="gray" src="playground/hello.jpeg">
+						</div>
+						<div class="column is-1 is-hidden-mobile"></div>
 					</div>
 	    		</div>
-    		<!-- Description -->
-	    		<div class="column is-text-left is-half">
+    		<!-- Description for desktop/tablet-->
+	    		<div class="column is-text-left is-half is-hidden-mobile">
 	    			<div class="subtitle is-4">
 	    			<br>
 	                i am a <font color=black>sophomore</font> at UC Berkeley and an intended <font color=black>computer science major</font>. i am currently looking for a <font color=black>software engineering internship</font> in front-end/back-end web dev.
@@ -165,8 +172,31 @@
 	                </div>
 	    		</div>
     		</div>
+    		<!-- Description for mobile-->
+    		<div class="subtitle is-4 is-hidden-tablet">
+    			<br>
+                i am a <font color=black>sophomore</font> at UC Berkeley and an intended <font color=black>computer science major</font>. i am currently looking for a <font color=black>software engineering internship</font> in front-end/back-end web dev.
+                <br><br>
+
+                this website is still a work in progress and was created with the assistance of <a href="bulma.io"><font color=black>Bulma</font></a>. this is also my personal playground for exploring various cs concepts, so please do not click on the playground link unless you are prepared to view possibly broken things.
+                <br><br>
+
+                some of my other interests include:
+                <br>
+                digital painting, urban dance, ice cream, and people watching.
+                <br><br>
+
+                i hope you have a wonderful day. :)
+                <br><br>
+
+                cheers,
+                <font color=black><br>emily zhang</font>
+            </div>
     	</div>
     </div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
 
     <!-- Projects Section #s2 -->
     <a id="s2"><div class="section"></a>
