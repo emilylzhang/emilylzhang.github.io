@@ -68,5 +68,14 @@ a:hover {
 }
 
 #gradient {
-	background: linear-gradient(to top, rgba(103,128,159,1), rgba(228,241,254,1), rgba(255,255,255,1), rgba(255,255,255,1));
+	background: linear-gradient(to top, #34495E, rgba(103,128,159,1), rgba(228,241,254,1), rgba(255,255,255,1));
+}
+
+.flip {
+        -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
 }
