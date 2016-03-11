@@ -4,15 +4,12 @@ a:hover {
 
 .header-tab {
 	color: #1abc9c;
-	background: white;
-}
-
-.header-left {
-	background: white;
 }
 
 .hero-header {
 	background: white;
+	/*background: linear-gradient(to top, #4ECDC4, white, white);*/
+
 }
 
 .hero.is-primary .subtitle {
@@ -45,11 +42,15 @@ a:hover {
 }
 
 .hero.is-small .hero-content {
-	background: linear-gradient(to top, #4ECDC4, white, white, white, white, white, white, white, white, white);
+	background: white; /* for backgrounds that don't support gradients */
+	background: linear-gradient(to top, #4ECDC4, #A2DED0, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white);
+	background: linear-gradient(to top, rgba(78,205,196,1), rgba(255,255,255,1), rgba(255,255,255,1), rgba(255,255,255,1));
 	/*background: linear-gradient(to top, #6C7A89, #4ECDC4, white, white, white, white, white, white, white, white, white, white, white, white, white, white, white ,white
 		);
 	background: linear-gradient(to top, #f5f7fa, #ECF0F1, #A2DED0, #4ECDC4, #1BA39C, #6C7A89);*/
 }
+/*78,205,196*/
+
 
 #special {
 	opacity: 0.6;
