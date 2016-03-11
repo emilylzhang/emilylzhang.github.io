@@ -63,6 +63,10 @@ a:hover {
 	color: #2C3E50;
 }
 
+#no-border {
+	border-bottom: none;
+}
+
 #special {
 	opacity: 0.6;
 }
