@@ -17,7 +17,7 @@
 
     <!-- Custom CSS -->
     <link href="playground/hover.css" rel="stylesheet">
-    <link href="playground/ezsquare.png" type="image/x-icon" rel="icon">
+    <link href="playground/ezbrand2.png" type="image/x-icon" rel="icon">
     <link href="node_modules/bulma/newbulma.css" rel="stylesheet">
     <link href="experimentB/experimentB.css" rel="stylesheet">
 
@@ -25,6 +25,19 @@
     <script src="node_modules/js/jquery-2.2.0.min.js" type="text/javascript"></script>
 	<script src="node_modules/js/clipboard.min.js" type="text/javascript"></script>
 	<script src="node_modules/js/bulma.js" type="text/javascript"></script>
+
+	<!-- JS for scrolling -->
+	<script type="text/javascript">
+	  $( document ).ready(function() {
+
+	    $("#button").click(function() {
+	        $('html, body').animate({
+	            scrollTop: $("#elementtoScrollToID").offset().top
+	        }, 2000);
+	    });
+
+	  });
+  	</script>
 
 </head>
 
@@ -55,17 +68,17 @@
     	<!-- Header Right Side (Links) -->
         <div id="header-menu" class="header-right header-menu">
         	<span class="header-tab hvr-float">
-        		<a href="#s1">
+        		<a href="#s1" onclick="test('s1'); return false;">
         			about
         		</a>
       		</span>
       		<span class="header-tab hvr-float">
-        		<a href="#s2">
+        		<a href="#s2" onclick="test('s2'); return false;">
         			projects
         		</a>
       		</span>
         	<span class="header-tab hvr-float">
-        		<a href="#s3">
+        		<a href="#s3" onclick="test('s3'); return false;">
         			portfolio
         		</a>
       		</span>
@@ -85,7 +98,7 @@
         		</a>
       		</span>
       		<span class="header-tab hvr-float">
-        		<a href=#s4>
+        		<a href=#s4 onclick="test('s4'); return false;">
         			contact me
         		</a>
       		</span>
