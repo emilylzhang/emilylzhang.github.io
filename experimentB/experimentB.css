@@ -21,7 +21,7 @@ a:hover {
 }
 
 .hero.is-primary .subtitle {
-	color: #89C4F4;
+	color: #2574A9;
 }
 
 .hero-content {
@@ -84,14 +84,22 @@ a:hover {
     -ms-filter: "FlipH";
 }
 
+.fit-height {
+	max-height: 600px;
+}
+
 #gray {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
 
-#scroll-about {
-	container: '.container',
-	blockIn: '.newElement',
-	blockOut: '.oldElement',
-	animation: 'slide-in'
+.bx-wrapper {
+	*zoom: 0.8;
+	max-height: 50%;
+	margin: auto;
+}
+
+.bx-wrapper img {
+	max-width: 100%;
+	margin: auto;
 }
