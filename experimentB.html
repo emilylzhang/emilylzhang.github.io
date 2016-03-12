@@ -6,17 +6,17 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="playground stuff!">
+    <meta name="description" content="personal website of emily liu zhang">
     <meta name="author" content="Emily Zhang">
     <meta name="keywords" content="HTML, CSS, JavaScript">
 
-    <!-- Bulma CSS -->
-
+    <!-- CSS Frameworks/etc. -->
+    <link href="node_modules/transitions.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="playground/hover.css" rel="stylesheet">
     <!--link href="node_modules/bulma/css/bulma.css" rel="stylesheet"-->
 
     <!-- Custom CSS -->
-    <link href="playground/hover.css" rel="stylesheet">
     <link href="playground/ezbrand2.png" type="image/x-icon" rel="icon">
     <link href="node_modules/bulma/newbulma.css" rel="stylesheet">
     <link href="experimentB/experimentB.css" rel="stylesheet">
@@ -25,20 +25,33 @@
     <script src="node_modules/js/jquery-2.2.0.min.js" type="text/javascript"></script>
 	<script src="node_modules/js/clipboard.min.js" type="text/javascript"></script>
 	<script src="node_modules/js/bulma.js" type="text/javascript"></script>
+	<script src="node_modules/js/animateTransition.js"></script>
 
 	<!-- JS for scrolling -->
 	<script type="text/javascript">
-	  $( document ).ready(function() {
+		// window.smoothScroll = function(target) {
+		//     var scrollContainer = target;
+		//     do { //find scroll container
+		//         scrollContainer = scrollContainer.parentNode;
+		//         if (!scrollContainer) return;
+		//         scrollContainer.scrollTop += 1;
+		//     } while (scrollContainer.scrollTop == 0);
 
-	    $("#button").click(function() {
-	        $('html, body').animate({
-	            scrollTop: $("#elementtoScrollToID").offset().top
-	        }, 2000);
-	    });
+		//     var targetY = 0;
+		//     do { //find the top of target relatively to the container
+		//         if (target == scrollContainer) break;
+		//         targetY += target.offsetTop;
+		//     } while (target = target.offsetParent);
 
-	  });
+		//     scroll = function(c, a, b, i) {
+		//         i++; if (i > 30) return;
+		//         c.scrollTop = a + (b - a) / 30 * i;
+		//         setTimeout(function(){ scroll(c, a, b, i); }, 25);
+		//     }
+		//     // start scrolling
+		//     scroll(scrollContainer, scrollContainer.scrollTop+500, targetY, 0);
+		// }
   	</script>
-
 </head>
 
 <body>
@@ -49,9 +62,6 @@
     <div class="container">
     	<!-- Header Left Side (Logo) -->
     	<div class="header-left">
-    		<!--a class="header-item" href="experimentB.html">
-    			<img src="playground/favicon.png" alt="Logo">
-  			</a-->
   			<!--img class="image is-48x48" src="playground/ezsquare.png"-->
   			<a class="header-item subtitle is-5" href="#sTop">
 				emily liu zhang
@@ -68,17 +78,17 @@
     	<!-- Header Right Side (Links) -->
         <div id="header-menu" class="header-right header-menu">
         	<span class="header-tab hvr-float">
-        		<a href="#s1" onclick="test('s1'); return false;">
+        		<a href="#s1" onclick="smoothScroll(document.getElementById('s1'))">
         			about
         		</a>
       		</span>
       		<span class="header-tab hvr-float">
-        		<a href="#s2" onclick="test('s2'); return false;">
+        		<a href="#s2" scroll="#s2">
         			projects
         		</a>
       		</span>
         	<span class="header-tab hvr-float">
-        		<a href="#s3" onclick="test('s3'); return false;">
+        		<a href="#s3" scroll="#s3">
         			portfolio
         		</a>
       		</span>
@@ -98,7 +108,7 @@
         		</a>
       		</span>
       		<span class="header-tab hvr-float">
-        		<a href=#s4 onclick="test('s4'); return false;">
+        		<a href=#s4 scroll="#s4">
         			contact me
         		</a>
       		</span>
@@ -123,10 +133,9 @@
 		  		</div>
 			</div>
 			<br>
-	    <!-- h1 class="title is-4" id="special">
-	    	<b>today is a wonderful day</b>
-	    </h1> -->
 	    </div>
+
+	    <!-- Extra Spacing between sections -->
 	    <div class="column is-11"></div>
 	    <div class="column is-11"></div>
 	    <div class="column is-11"></div>
@@ -144,6 +153,8 @@
 	    <div class="column is-11"></div>
 	    <div class="column is-11"></div>
 	</div>
+
+	<!-- Extra Spacing between sections -->
 	<div class="column is-11"></div>
 	<div class="column is-11"></div>
 
@@ -213,6 +224,8 @@
             </div>
     	</div>
     </div>
+
+    <!-- Extra Spacing between sections -->
     <div class="column is-11"></div>
     <div class="column is-11"></div>
     <div class="column is-11"></div>
@@ -268,16 +281,12 @@
     	</div>
     </div>
 
-
 </div>
 
 <div class="hero-footer">
 </div>
 
-<!-- input type="text">Input Box test.</input-->
 
 </section>
-
 </body>
-
 </html>
