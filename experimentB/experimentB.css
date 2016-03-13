@@ -72,7 +72,9 @@ a:hover {
 }
 
 #gradient {
-	background: linear-gradient(to top, #34495E, rgba(103,128,159,1), rgba(228,241,254,1), rgba(255,255,255,1));
+	background: linear-gradient(to top, #34495E, #34495E, rgba(103,128,159,1), rgba(103,128,159,1), rgba(228,241,254,1), rgba(255,255,255,1));
+
+	/*background: linear-gradient(to top, #34495E, rgba(103,128,159,1), rgba(228,241,254,1), rgba(255,255,255,1));*/
 }
 
 .flip {
