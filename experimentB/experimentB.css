@@ -103,3 +103,15 @@ a:hover {
 	max-width: 100%;
 	margin: auto;
 }
+
+.spacer {
+	margin: 100vh;
+}
+
+.small.spacer {
+	margin: 15vh;
+}
+
+.smallest.spacer {
+	margin: 5vh;
+}
