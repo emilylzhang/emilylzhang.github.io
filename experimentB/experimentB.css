@@ -93,6 +93,10 @@ a:hover {
 	filter: grayscale(100%);
 }
 
+#black {
+	color: black;
+}
+
 .bx-wrapper {
 	*zoom: 0.8;
 	max-height: 50%;
@@ -232,4 +236,8 @@ a:hover {
             transform: perspective(140px) rotateY(180deg);
     opacity: 0; 
   }
+}
+
+.hero-footer {
+	background: linear-gradient(to top, rgba(103,128,159,1), rgba(228,241,254,1), rgba(255,255,255,1));
 }
