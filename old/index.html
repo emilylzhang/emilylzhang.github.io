@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Emily Zhang</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="personal website of emily liu zhang">
+    <meta name="author" content="Emily Zhang">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+    <!-- CSS Frameworks/etc. -->
+    <!-- <link href="node_modules/transitions.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="playground/hover.css" rel="stylesheet">
+    <!--link href="node_modules/bulma/css/bulma.css" rel="stylesheet"-->
+
+    <!-- Custom CSS -->
+    <link href="playground/ezbrand2.png" type="image/x-icon" rel="icon">
+    <link href="node_modules/bulma/newbulma.css" rel="stylesheet">
+    <link href="experimentB/experimentB.css" rel="stylesheet">
+
+    <!-- JS -->
+    <script src="node_modules/js/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="node_modules/js/clipboard.min.js" type="text/javascript"></script>
+    <script src="node_modules/js/bulma.js" type="text/javascript"></script>
+    <!-- <script src="node_modules/js/animateTransition.js"></script> -->
+
+    <!-- bxslider imports -->
+    <!-- jQuery library (served from Google) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
+    <link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet"/>
+
+    <!-- JS for bxSlider -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.bxslider').bxSlider({
+                mode: 'fade',
+                captions: false, 
+                randomStart: true, 
+                adaptiveHeight: false,
+                easing: 'linear'
+            });
+        });
+    </script>
+</head>
+
+<body>
+<section class="hero is-primary is-small">
+<!-- Hero Header -->
+<div class="hero-header" id="sTop">
+    <header class="header has-shadow">
+    <div class="container">
+        <!-- Header Left Side (Logo) -->
+        <div class="header-left">
+            <!--img class="image is-48x48" src="playground/ezsquare.png"-->
+            <a class="header-item subtitle is-5" id="gray" href="#sTop">
+                emily liu zhang
+            </a>
+        </div>
+
+        <!-- Hamburger menu (on mobile) -->
+        <span class="header-toggle" id="header-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+
+        <!-- Header Right Side (Links) -->
+        <div id="header-menu" class="header-right header-menu">
+            <span class="header-tab hvr-float">
+                <a href="#s1">
+                    about
+                </a>
+            </span>
+            <span class="header-tab hvr-float">
+                <a href="#s2">
+                    projects
+                </a>
+            </span>
+            <span class="header-tab hvr-float">
+                <a href="#s3">
+                    portfolio
+                </a>
+            </span>
+            <span class="header-tab hvr-float">
+                <a target="_blank" href="docs/ez_resume.pdf">
+                    resumé
+                </a>
+            </span>
+            <span class="header-tab hvr-float">
+                <a href=#s4>
+                    contact me
+                </a>
+            </span>
+        </div>
+    </div>
+    </header>
+</div>
+
+<!-- Hero Content -->
+
+<div class="hero-content">
+    <!-- Top Section -->
+    <div>
+    <!--div id="gradient"-->
+        <div class="container">
+            <div class="columns is-mobile">
+                <div class="column is-half is-offset-quarter">
+                    <!--div class="box"-->
+                        <div class="media">
+                            <img src="playground/tgirl2.png">
+                        </div>
+                    <!--/div-->
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <!-- Extra Spacing between sections -->
+        <div class="small spacer"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="small spacer"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+        <div class="column is-11"></div>
+    <!--/div-->
+    </div>
+
+    <!-- Extra Spacing between sections -->
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="small spacer"></div>
+
+    <!-- About Section #s1 -->
+    <a id="s1"><div class="section"></a>
+        <div class="container">
+            <h1 class="title">
+                about me
+                <div class="icon is-medium hvr-bob">
+                    <a href="#sTop" id="no-border">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+            </h1>
+            <div class="columns is-mobile">
+            <!-- Picture -->
+                <div class="column">
+                    <div class="column is-half is-hidden-mobile"></div>
+                    <div class="column is-half is-hidden-mobile"></div>
+                    <div class="column is-half"></div>
+                    <div class="columns is-mobile">
+                        <div class="media">
+                            <img class="box is-hidden-mobile" id="gray" src="playground/hello.jpeg">
+                            <img class="box is-hidden-tablet" id="gray" src="playground/hello.jpeg">
+                        </div>
+                        <div class="column is-1 is-hidden-mobile"></div>
+                    </div>
+                </div>
+            <!-- Description for desktop/tablet-->
+                <div class="column is-text-left is-half is-hidden-mobile">
+                    <div class="subtitle is-4">
+                    <br>
+                    i am a <font color=black>sophomore</font> at UC Berkeley and an intended <font color=black>computer science major</font>. i am currently looking for a <font color=black>software engineering internship</font>.
+                    <br><br>
+
+                    this website is still a work in progress and was created with the assistance of <a class="hvr-link" href="http://bulma.io">Bulma</a>. this is also my personal <a class="hvr-link" href="old.html">playground</a> for exploring various cs concepts, so please do not click on the link unless you are prepared to view possibly broken things.
+                    <br><br>
+
+                    some of my other interests (besides <font color=black>coding</font>!) include <a href="#s3" class="hvr-link">digital painting</a>, urban dance, reading, creative writing, and ice cream.
+                    <br><br>
+
+                    i hope you have a wonderful day. :)
+                    <br><br>
+
+                    cheers,
+                    <font color=black><br>emily zhang</font>
+                    </div>
+                </div>
+            </div>
+            <!-- Description for mobile-->
+            <div class="subtitle is-4 is-hidden-tablet">
+                <br>
+                i am a <font color=black>sophomore</font> at UC Berkeley and an intended <font color=black>computer science major</font>. i am currently looking for a <font color=black>software engineering internship</font>.
+                <br><br>
+
+                this website is still a work in progress and was created with the assistance of <a href="http://bulma.io" class="hvr-link">Bulma</a>. this is also my personal <a class="hvr-link" href="old.html">playground</a> for exploring various cs concepts, so please do not click on the link unless you are prepared to view possibly broken things.
+                <br><br>
+
+                some of my other interests (besides <font color=black>coding</font>!) include <a href="#s3" class="hvr-link">digital painting</a>, urban dance, reading, creative writing, and ice cream.
+                <br><br>
+
+                i hope you have a wonderful day. :)
+                <br><br>
+
+                cheers,
+                <font color=black><br>emily zhang</font>
+            </div>
+        </div>
+    </div>
+
+    <!-- Extra Spacing between sections -->
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="small spacer"></div>
+
+    <!-- Projects Section #s2 -->
+    <a id="s2"><div class="section"></a>
+        <div class="container">
+            <h1 class="title">
+                projects
+                <div class="icon is-medium hvr-bob">
+                    <a href="#sTop" id="no-border">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+                <div class="container">
+                    <div class="column is-11"></div>
+                    <div class="column is-11"></div>
+                    <div class="column is-11"></div>
+                    <div class="column is-11"></div>
+                    <div class="column is-11"></div>
+                    <div class="column is-11"></div>
+                    <div class="column is-11"></div>
+                    <div class="small spacer"></div>
+                    <div class="sk-folding-cube">
+                        <div class="sk-cube1 sk-cube"></div>
+                        <div class="sk-cube2 sk-cube"></div>
+                        <div class="sk-cube4 sk-cube"></div>
+                        <div class="sk-cube3 sk-cube"></div>
+                    </div>
+                    <div class="subtitle is-6" id="gray">
+                    links/information to be added soon
+                    </div>
+                </div>
+                <!-- REMOVE AFTER UPDATING THIS SECTION -->
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+                <div class="column is-11"></div>
+            </h1>
+        </div>
+    </div>
+
+    <!-- Extra Spacing between sections -->
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="small spacer"></div>
+
+    <!-- Portfolio Section #s3 -->
+    <a id="s3"><div class="section"></a>
+        <div class="container">
+            <h1 class="title">
+                portfolio
+                <div class="icon is-medium hvr-bob">
+                    <a href="#sTop" id="no-border">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+            </h1>
+            <div class="column">
+                <ul class="bxslider">
+                    <li><img class="fit-height" src="http://pre12.deviantart.net/c8f0/th/pre/i/2016/126/d/9/wish_by_starfishyx-da1jvtx.png" /></li>
+                    <li><img class="fit-height" src="http://pre01.deviantart.net/53d4/th/pre/i/2016/124/7/5/little_fish_by_starfishyx-da1bt69.png" /></li>
+                    <li><img class="fit-height" src="playground/b4.png" /></li>
+                    <li><img class="fit-height" src="http://pre04.deviantart.net/e918/th/pre/i/2016/120/b/f/summer_by_starfishyx-da0sim1.png" /></li>
+                    <li><img class="fit-height" src="playground/b6.png" /></li>
+                    <li><img class="fit-height" src="playground/b8.png" /></li>
+                    <li><img class="fit-height" src="http://pre09.deviantart.net/5fd2/th/pre/i/2016/093/4/4/doe_by_starfishyx-d9xjk8b.png" /></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Extra Spacing between sections -->
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="small spacer"></div>
+
+    <!-- Contact Me Section #s4 -->
+    <a id="s4"><div class="section"></a>
+        <div class="container">
+            <h1 class="title">
+                contact me
+                <div class="icon is-medium hvr-bob">
+                    <a href="#sTop" id="no-border">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+            </h1>
+            <div class="column is-11"></div>
+            <div class="column is-11"></div>
+            <div class="column is-11"></div>
+            <div class="column is-11"></div>
+            <div class="column is-11"></div>
+            <div class="column is-11"></div>
+            <div class="column is-11"></div>
+            <div class="column is-11"></div>
+            <div class="icon is-medium hvr-grow">
+                <a href="mailto:e.zhang@berkeley.edu">
+                    <i class="fa fa-envelope"></i>
+                </a>
+            </div>
+            <div class="icon is-medium hvr-grow">
+                <a href="https://linkedin.com/in/emily-zhang-72315875" target="_blank">
+                    <i class="fa fa-linkedin-square"></i>
+                </a>
+            </div>
+            <div class="icon is-medium hvr-grow">
+                <a href="https://github.com/emilylzhang" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+            </div>
+                <br>
+            <div class="icon is-medium hvr-grow">
+                <a href="https://twitter.com/ezstarfish" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                </a>
+            </div>
+            <div class="icon is-medium hvr-grow">
+                <a href="https://instagram.com/emystarfish/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+            <div class="icon is-medium hvr-grow">
+                <a href="https://starfishyx.deviantart.com/" target="_blank">
+                    <i class="fa fa-deviantart"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Extra Spacing between sections -->
+    <div class="small spacer"></div>
+    <div class="smallest spacer"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+    <div class="column is-11"></div>
+
+</div>
+
+<div class="hero-footer">
+<div class="column is-11"></div>
+<div class="column is-11"></div>
+<div class="column is-11"></div>
+<div class="column is-11"></div>
+<div class="column is-11"></div>
+<div class="column is-11"></div>
+<div class="column is-11"></div>
+<div class="container">
+    <div class="content is-centered">
+        <div class="subtitle is-6">
+        <strong id="black">Sources:</strong>
+        <a target="_blank" href="http://bulma.io" class="hvr-link" id="black">Bulma.</a>
+        <a target="_blank" href="http://tobiasahlin.com/spinkit/" class="hvr-link" id="black">Spinkit.</a>
+        <a target="_blank" href="https://ianlunn.github.io/Hover/" class="hvr-link" id="black">Hover.css.</a>
+        <a target="_blank" href="http://bxslider.com" class="hvr-link" id="black">bxSlider.</a>
+        <a target="_blank" href="https://fortawesome.github.io/Font-Awesome/" class="hvr-link" id="black">Font Awesome.</a>
+        </div>
+    </div>
+</div>
+<div class="column is-11"></div>
+</div>
+
+
+</section>
+</body>
+</html>

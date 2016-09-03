@@ -1,0 +1,21 @@
+body {
+	background-color: white;
+	background-size: cover;
+}
+
+.clearcontent {
+	background: black;
+	color: white;
+	opacity: 0.97;
+	overflow: hidden;
+	padding: 100px;
+}
+
+#imgbox {
+	background: turquoise;
+	overflow: hidden;
+	display: inline-block;
+	/*max-height: 650px;
+	max-width: 635px;*/
+	text-align: center;
+}

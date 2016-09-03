@@ -1,0 +1,15 @@
+.is-centered {
+  -webkit-box-pack: center!important;
+  -webkit-justify-content: center!important;
+      -ms-flex-pack: center!important;
+          justify-content: center!important;
+}
+
+img {
+    /*height: 90%;*/
+    width: 100%;
+}
+
+small {
+    font-size: 0.2em;
+}

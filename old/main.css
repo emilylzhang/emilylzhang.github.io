@@ -1,0 +1,141 @@
+/* Custom css by Emily Zhang modifying the bootstrap theme */
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url("playground/hover.css");
+
+body {
+	font-family: "Questrial", sans-serif;
+}
+
+h1 {
+	color: black;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#sidebar-wrapper {
+}
+
+.sidebar-nav li a {
+	color: #4ECDC4;
+	font-size: 20px;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.sidebar-nav li a:hover {
+	color: black;
+	background: #70e1e1;
+	-webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.sidebar-nav > .sidebar-brand a {
+	font-size: 30px;
+	background-color: black;
+    color: white;
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.sidebar-nav > .sidebar-brand a:hover {
+    color: black;
+    background-color: white;
+    -webkit-transition: all .2s ease-in-out;
+	-moz-transition: all .2s ease-in-out;
+	-ms-transition: all .2s ease-in-out;
+	-o-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+
+.sidebar-nav li a[rel="active"] {
+	color: black;
+	background-color: white;
+}
+
+.profile {
+	opacity: 0.55;
+	-ilter: saturate(0.0);
+    -webkit-filter: saturate(0.0);
+    -moz-filter: saturate(0.0);
+    -o-filter: saturate(0.0);
+    -ms-filter: saturate(0.0);
+	border-radius: 2em;
+	-webkit-transition: all 2.5s ease;
+	-moz-transition: all 2.5s ease;
+	-ms-transition: all 2.5s ease;
+	-o-transition: all 2.5s ease;
+	transition: all 2.5s ease;
+}
+
+.profile:hover {
+	opacity: 1;
+	-ilter: saturate(0.7);
+    -webkit-filter: saturate(0.7);
+    -moz-filter: saturate(0.7);
+    -o-filter: saturate(0.7);
+    -ms-filter: saturate(0.7);
+	transition: all .30s ease-in-out;
+	-moz-transition: all .30s ease-in-out;
+	-webkit-transition: all .30s ease-in-out;
+}
+
+.profile[rel="profile1"] {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -ms-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+#imgbox {
+	background: mediumturquoise;
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 2em;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#menu-toggle {
+	font-size: 27px;
+	background-color: white;
+	border: dashed 1px black;
+	border: none;
+	-webkit-transition: all .8s ease;
+	-moz-transition: all .8s ease;
+	-ms-transition: all .8s ease;
+	-o-transition: all .8s ease;
+	transition: all .8s ease;
+}
+
+#menu-toggle:hover {
+	color: turquoise;
+	-webkit-transition: all .8s ease;
+	-moz-transition: all .8s ease;
+	-ms-transition: all .8s ease;
+	-o-transition: all .8s ease;
+	transition: all .8s ease;
+}
+
+.btn btn-default:hover {
+	background-color: white;
+	opacity: 0.7;
+	border: dashed 1px black;
+}
+
+.btn btn-default {
+	background-color: none;
+}
+

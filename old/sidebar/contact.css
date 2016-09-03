@@ -1,0 +1,21 @@
+body {
+	background-color: white; /*url("http://media.crowdshare.io/UHFIZM5d9HET2QRQvDcSHFEhCVYEhd0x-1200x1200.png");*/
+	background-size: cover;
+}
+
+.clearcontent {
+	background: black;
+	color: white;
+	opacity: 0.97;
+	overflow: hidden;
+	padding: 100px;
+}
+
+#imgbox {
+	background: turquoise;
+	overflow: hidden;
+	display: inline-block;
+	/*max-height: 650px;
+	max-width: 635px;*/
+	text-align: center;
+}
