@@ -1,0 +1,20 @@
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+small {
+    font-size: 0.2em;
+}
+
+.fit-height {
+    max-height: 570px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h6 {
+    margin-left: auto;
+    margin-right: auto;
+}
